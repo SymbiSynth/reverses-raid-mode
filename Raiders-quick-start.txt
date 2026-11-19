@@ -1,0 +1,65 @@
+Reverse's Raid Mode | Raiders test build 0.15.0.1
+
+Getting started
+
+1. In Windows, right-click the ZIP, choose Extract All, and open
+   Reverse's Raid Mode Raiders.exe from the extracted folder as your normal
+   Windows user. The first launch scans running and installed apps.
+2. Discord and World of Warcraft start Rostered. Other eligible apps start
+   Benched, including apps first launched during a raid. Windows protections
+   stay on. In App Roster, right-click an app to change its rule. You can also
+   check several apps and choose Roster, Bench, or Flex above the table.
+   Flex apps stay open unless you enable closing Flex apps in Details.
+3. Choose Scan & preview and review the Action column. Apply suggestions
+   rosters detected Battle.net and Archon apps, your Windows default browser
+   and other running browsers the scan recognizes. Apps you explicitly Bench
+   or set to Flex are skipped. Use Ctrl-click or Shift-click to edit a group.
+4. Choose Start raid to see the list of apps scheduled to close. Save your
+   work first. At the bottom of this screen, choose how to start the raid:
+   - Start session & resume my apps afterward. When the raid ends, Raid Mode
+     reopens desktop apps it confirmed closed at the start. Apps that support
+     restoring a session can bring back their tabs or documents. Other apps
+     open normally. Unsaved work depends on the app.
+   - Start session & leave my apps closed. You can open them yourself whenever
+     you're ready.
+   - Start session & use my per-app choices. Raid Mode follows the After raid
+     choice you saved for each app. Apps without a choice stay closed.
+   The first two buttons override the individual choices for this raid.
+   Cancel takes you back to your preview. You choose each time, and Resume
+   is highlighted even if you chose something different last time.
+5. Choose End session to stop monitoring, restore paused startup entries and
+   carry out your choice. Apps already running are left alone. Raid Mode
+   also recognizes tray apps that have a desktop launcher or register for
+   restart with Windows. Apps first launched during a raid and individual
+   background helpers are excluded from automatic reopening. A window waiting
+   for you to save stays open. See Activity for individual results.
+
+Where your rules go
+
+Changes save automatically to your Windows account as soon as you edit a rule.
+You can close the app immediately and see your choices the next time you open
+it. To find your settings, paste this into the File Explorer address bar:
+
+    %LOCALAPPDATA%\RaidModeRaiders
+
+The file whitelist.json holds BOTH your Rostered and Benched lists. Moving
+the Raid Mode app or extracting another copy uses the same saved profile.
+To save an individual return preference, right-click an app in App Roster
+and choose After raid. You can set several selected apps together. Stay
+closed, Start fresh and Resume if supported apply when you start a raid
+with Use my per-app choices. Start fresh opens a new window in supported
+apps. Other apps follow their own startup settings.
+Rostered and Benched rules follow an executable into a new version folder in its
+installation. If an update moves it elsewhere, Raid Mode can also recognize
+an app by its executable name, publisher and product once the old file is gone.
+Shared helpers with generic names need a matching installation path. If Raid
+Mode cannot identify a move, the new entry follows your raid defaults.
+Click Details beside the updated app to see which saved rule it matched.
+Clear rule sets the selected app to Flex. Manage rules lets you turn raid
+defaults off or on. Clear all removes raid rules and turns off the defaults.
+
+Giving feedback
+
+Tell Reverse which app you tested, the rule you picked, what you expected,
+and what happened. For a visual issue, a screenshot of the affected row or
+screen is helpful. Please mention build 0.15.0.1.
