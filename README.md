@@ -12,7 +12,7 @@ Reverse's Raid Mode is a lightweight Windows app for WoW raiders. I built it to 
 
 ## Review the Raiders test build
 
-The package is **Raiders 0.15.0**, Windows file version **0.15.0.1**, with the revised arrow R. It is an unsigned x64 Windows test build. The release ZIP contains only the EXE and the quick start guide. [Download the reviewed Raiders ZIP](https://github.com/SymbiSynth/reverse-raid-mode/releases/tag/v0.15.0-raiders). The WinForms header and Windows icon were checked on this exact executable. The 54-check Raiders regression run applies to the previous build.
+Download [Raiders 0.15.0 for Windows x64](https://github.com/SymbiSynth/reverses-raid-mode/releases/tag/v0.15.0-raiders). The ZIP includes the unsigned test build and a quick start guide.
 
 1. Extract the ZIP and open the EXE as your normal Windows user.
 2. Use **Scan & preview** to review the close list, including background apps. Set anything you need to keep to Rostered.
